@@ -13,7 +13,7 @@ SESSION_ID: process.env.SESSION_ID || "LAKA-MD=txoQyRJC#LlKTqFfloWVAey79Eof9aJoZ
 //=================================================
 //මෙවා defult එවා කැමතිනම් false and true විතරක් වෙනස් කරගන්න..✨
 
-PREFIX: process.env.PREFIX || '' ,
+PREFIX: process.env.PREFIX || '.' ,
 OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '753836730' : process.env.OWNER_NUMBER,
 MODE: process.env.MODE === undefined ?"public" : process.env.MODE,
 AUTO_VOICE: process.env.AUTO_VOICE === undefined ? "false" : process.env.AUTO_VOICE,
