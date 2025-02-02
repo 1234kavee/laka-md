@@ -7,7 +7,7 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
 //👉 Put Your Session Id 🐣 👈කියන එක කපලා අයින් කරලා ඔයාගේ Session id එක දාන්න.
 
-SESSION_ID: process.env.SESSION_ID || "LAKA-MD=d4ZUFRoI#96tFbLgYRG0kvs0SCFnCkPsw8kpT6dF-50MVqoNCFDo",
+SESSION_ID: process.env.SESSION_ID || "LAKA-MD=1lwVWI5a#BFiiPxl99EQQ8idZVUTi7uVv9Pj4fwi6BlnuD1MvBxA",
 
 
 //=================================================
