@@ -1,4 +1,4 @@
-const fs = require('fs');
+pconst fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
 function convertToBool(text, fault = 'true') {
@@ -7,7 +7,7 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
 //👉 Put Your Session Id 🐣 👈කියන එක කපලා අයින් කරලා ඔයාගේ Session id එක දාන්න.
 
-SESSION_ID: process.env.SESSION_ID || "LAKA-MD=VgYjwC5a#sQA5LBgZpci4q5g9UTTYncSk8RXORRU4UoS1an0wOc0",
+SESSION_ID: process.env.SESSION_ID || "LAKA-MD=ghxBnJxb#xmuAWUGwVKU8XvxUpZ9b2Tk5Wvfzyw5IXAxm6_fML1Q",
 
 
 //=================================================
